@@ -1,0 +1,23 @@
+{
+	"name" : "Pager Counter",
+	"description" : "",
+	"author" : "Eightan",
+	"version" : "1.0",
+	"blt_version" : 2,
+	"image" : "icon.png",
+	"color" : "0.15 0.15 0.15",
+	"hooks" : [
+		{
+			"hook_id" : "lib/managers/hudmanagerpd2",
+			"script_path" : "Pager.lua"
+		},
+		{
+			"hook_id" : "lib/units/interactions/interactionext",
+			"script_path" : "Pager.lua"
+		},
+		{
+			"hook_id" : "lib/network/handlers/unitnetworkhandler",
+			"script_path" : "Pager.lua"
+		}
+	]
+}
